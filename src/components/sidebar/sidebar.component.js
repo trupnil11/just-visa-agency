@@ -7,20 +7,20 @@ const Sidebar = () =>{
         <div className="sidebar">
         
         <div className="logobar">
-            <a href="index.html" className="logo logo-large"><img src="assets/images/logo.svg" className="img-fluid" alt="logo" /></a>
-            <a href="index.html" className="logo logo-small"><img src="assets/images/small_logo.svg" className="img-fluid" alt="logo" /></a>
+            <a href="index.html" className="logo logo-large"><img src="/assets/images/logo.svg" className="img-fluid" alt="logo" /></a>
+            <a href="index.html" className="logo logo-small"><img src="/assets/images/small_logo.svg" className="img-fluid" alt="logo" /></a>
         </div>
         
         <div className="navigationbar">
             <ul className="vertical-menu">
                 <li>
                     <Link to="/">
-                      <img src="assets/images/svg-icon/dashboard.svg" className="img-fluid" alt="dashboard" /><span>Dashboard</span>
+                      <img src="/assets/images/svg-icon/dashboard.svg" className="img-fluid" alt="dashboard" /><span>Dashboard</span>
                       </Link>
                 </li>
                 <li>
                     <a href="javaScript:void();">
-                      <img src="assets/images/svg-icon/dashboard.svg" className="img-fluid" alt="dashboard" /><span>Consuntancy</span>
+                      <img src="/assets/images/svg-icon/dashboard.svg" className="img-fluid" alt="dashboard" /><span>Consuntancy</span>
                     </a>
                     <ul class="vertical-submenu">
                                 <li>
@@ -31,12 +31,12 @@ const Sidebar = () =>{
                 </li>
                 <li>
                     <a href="javaScript:void();">
-                      <img src="assets/images/svg-icon/dashboard.svg" className="img-fluid" alt="dashboard" /><span>Settings</span>
+                      <img src="/assets/images/svg-icon/dashboard.svg" className="img-fluid" alt="dashboard" /><span>Settings</span>
                     </a>
                 </li>
                 <li>
                     <a href="javaScript:void();">
-                      <img src="assets/images/svg-icon/dashboard.svg" className="img-fluid" alt="dashboard" /><span>Privacy Policies</span>
+                      <img src="/assets/images/svg-icon/dashboard.svg" className="img-fluid" alt="dashboard" /><span>Privacy Policies</span>
                     </a>
                 </li>
                                                           

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Layout from './components/layout/layout.component';
 import { BrowserRouter as Router, Route, Routes,Navigate } from 'react-router-dom';
@@ -10,6 +9,7 @@ import RegisterPage from './pages/Register';
 
 
 function App() {
+
   return (
     <div className="App">
      <Router>
